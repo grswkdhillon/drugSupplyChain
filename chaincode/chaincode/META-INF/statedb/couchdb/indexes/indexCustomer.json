@@ -1,0 +1,21 @@
+{
+    "index":{
+        "fields":[
+            {
+             "docType": "asc"
+            },
+            {
+             "name": "asc"
+            },
+            {
+             "age": "asc"
+            },
+            {
+             "bal": "asc"
+            }
+        ]
+    },
+    "ddoc":"indexCustomerDoc",
+    "name":"indexCustomer",
+    "type":"json"
+}

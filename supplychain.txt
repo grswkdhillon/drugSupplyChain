@@ -1,0 +1,205 @@
+from chaincode side 
+
+1. send the success in boolean  (does not work)
+2. 
+
+
+from sdk
+manufacturer done
+
+
+{
+    "messages": "User registered successfully ",
+    "ResponseStatus": 1,
+    "data": [
+        {
+            "Key": "IuQffYjt2B",
+            "Record": {
+                "activeIngredients": [
+                    {
+                        "ingredient": "Paracetamol",
+                        "quantity": 500
+                    },
+                    {
+                        "ingredient": "Caffeine",
+                        "quantity": 50
+                    }
+                ],
+                "adverseReactions": "Rare cases of gastrointestinal discomfort, hypersensitivity reactions.",
+                "clinicalTrials": "Phase III clinical trials completed, demonstrating safety and efficacy",
+                "docType": "drugs",
+                "drugDesc": "A pain relief medication for mild to moderate pain.",
+                "drugId": "111112",
+                "drugName": "baili man1",
+                "fdaRegulations": "true",
+                "formulation": "tablet",
+                "gmpGuidlines": "false",
+                "key": "IuQffYjt2B",
+                "manufacturerId": "dhillon@manufacturer.com",
+                "manufacturingProcess": "Modern facility with strict adherence to GMP standards.",
+                "packaging": {
+                    "quantity": 50,
+                    "unit": "ml"
+                },
+                "pharmacodynamics": "Analgesic and antipyretic effects by inhibiting prostaglandin synthesis.",
+                "pharmacokinetics": "Rapid absorption, peak plasma concentration within 1-2 hours, elimination half-life of 2-4 hours",
+                "shelfLife": "2"
+            }
+        },
+        {
+            "Key": "WBtyAPOnZS",
+            "Record": {
+                "activeIngredients": [
+                    {
+                        "ingredient": "Paracetamol",
+                        "quantity": 500
+                    },
+                    {
+                        "ingredient": "Caffeine",
+                        "quantity": 50
+                    }
+                ],
+                "adverseReactions": "Rare cases of gastrointestinal discomfort, hypersensitivity reactions.",
+                "clinicalTrials": "Phase III clinical trials completed, demonstrating safety and efficacy",
+                "docType": "drugs",
+                "drugDesc": "A pain relief medication for mild to moderate pain.",
+                "drugId": "111111",
+                "drugName": "thyyle man1",
+                "fdaRegulations": "true",
+                "formulation": "tablet",
+                "gmpGuidlines": "false",
+                "key": "WBtyAPOnZS",
+                "manufacturerId": "dhillon@manufacturer.com",
+                "manufacturingProcess": "Modern facility with strict adherence to GMP standards.",
+                "packaging": {
+                    "quantity": 50,
+                    "unit": "ml"
+                },
+                "pharmacodynamics": "Analgesic and antipyretic effects by inhibiting prostaglandin synthesis.",
+                "pharmacokinetics": "Rapid absorption, peak plasma concentration within 1-2 hours, elimination half-life of 2-4 hours",
+                "shelfLife": "2"
+            }
+        }
+    ]
+}
+
+
+{
+    "messages": "User registered successfully ",
+    "ResponseStatus": 1,
+    "data": [
+        {
+            "activeIngredients": [
+                {
+                    "ingredient": "Paracetamol",
+                    "quantity": 500
+                },
+                {
+                    "ingredient": "Caffeine",
+                    "quantity": 50
+                }
+            ],
+            "adverseReactions": "Rare cases of gastrointestinal discomfort, hypersensitivity reactions.",
+            "clinicalTrials": "Phase III clinical trials completed, demonstrating safety and efficacy",
+            "docType": "drugs",
+            "drugDesc": "A pain relief medication for mild to moderate pain.",
+            "drugId": "111112",
+            "drugName": "baili man1",
+            "fdaRegulations": "true",
+            "formulation": "tablet",
+            "gmpGuidlines": "false",
+            "key": "IuQffYjt2B",
+            "manufacturerId": "dhillon@manufacturer.com",
+            "manufacturingProcess": "Modern facility with strict adherence to GMP standards.",
+            "packaging": {
+                "quantity": 50,
+                "unit": "ml"
+            },
+            "pharmacodynamics": "Analgesic and antipyretic effects by inhibiting prostaglandin synthesis.",
+            "pharmacokinetics": "Rapid absorption, peak plasma concentration within 1-2 hours, elimination half-life of 2-4 hours",
+            "shelfLife": "2"
+        },
+        
+        {
+            "activeIngredients": [
+                {
+                    "ingredient": "Paracetamol",
+                    "quantity": 500
+                },
+                {
+                    "ingredient": "Caffeine",
+                    "quantity": 50
+                }
+            ],
+            "adverseReactions": "Rare cases of gastrointestinal discomfort, hypersensitivity reactions.",
+            "clinicalTrials": "Phase III clinical trials completed, demonstrating safety and efficacy",
+            "docType": "drugs",
+            "drugDesc": "A pain relief medication for mild to moderate pain.",
+            "drugId": "111111",
+            "drugName": "thyyle man1",
+            "fdaRegulations": "true",
+            "formulation": "tablet",
+            "gmpGuidlines": "false",
+            "key": "WBtyAPOnZS",
+            "manufacturerId": "dhillon@manufacturer.com",
+            "manufacturingProcess": "Modern facility with strict adherence to GMP standards.",
+            "packaging": {
+                "quantity": 50,
+                "unit": "ml"
+            },
+            "pharmacodynamics": "Analgesic and antipyretic effects by inhibiting prostaglandin synthesis.",
+            "pharmacokinetics": "Rapid absorption, peak plasma concentration within 1-2 hours, elimination half-life of 2-4 hours",
+            "shelfLife": "2"
+        }
+    ]
+}
+
+
+
+
+
+TESTING
+
+
+admin 
+registeration
+login
+get users by status 
+update status
+
+manufacturer
+registeration
+login
+
+
+retailer
+registeration
+login
+show orders
+my orders
+
+
+
+Common Name: ca.org3.example.com
+Subject Alternative Names:
+Organization: org3.example.com
+Organization Unit:
+Locality: Raleigh
+State: North Carolina
+Country: US
+Valid From: July 24, 2023
+Valid To: July 20, 2038
+Issuer: ca.org3.example.com, org3.example.com
+Serial Number: 20d9d1a850cff8435b19bbc4bd77dd181fb52bf9
+
+Common Name: ca.org3.example.com
+Subject Alternative Names:
+Organization: org3.example.com
+Organization Unit:
+Locality: Raleigh
+State: North Carolina
+Country: US
+Valid From: July 24, 2023
+Valid To: July 20, 2038
+Issuer: ca.org3.example.com, org3.example.com
+Serial Number: 20d9d1a850cff8435b19bbc4bd77dd181fb52bf9
